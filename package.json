@@ -1,6 +1,6 @@
 {
   "name": "mumble-engine",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,7 @@
   "author": "devdandi",
   "license": "ISC",
   "devDependencies": {
-    "mumble-engine": "^0.0.8",
+    "mumble-engine": "^0.0.7",
     "typescript": "^4.6.3"
   },
   "files": [
@@ -21,5 +21,6 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.6.7",
     "@grpc/proto-loader": "^0.6.9"
-  }
+  },
+  "type": "module"
 }
