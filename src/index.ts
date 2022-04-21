@@ -2,9 +2,16 @@
 //     console.log(`Hello ${name}`)
 // }
 
-import {connection} from "./Connection/Connection";
+import utils from './utils/utils'
 
-
-export {
-    connection
+interface Connection {
+    url: string,
+    port: number,
+    username: string,
+    password: string
 }
+
+export function connect(url: string, port: number, username: string, password: string)   {
+    console.log(utils)
+}
+

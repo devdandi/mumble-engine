@@ -11,6 +11,7 @@
   "author": "devdandi",
   "license": "ISC",
   "devDependencies": {
+    "mumble-engine": "^0.0.5",
     "typescript": "^4.6.3"
   },
   "files": [
@@ -18,9 +19,7 @@
   ],
   "dependencies": {
     "@grpc/grpc-js": "^1.6.7",
-    "@grpc/proto-loader": "^0.6.9",
-    "mumble-engine": "^0.0.5",
-    "update": "^0.7.4"
+    "@grpc/proto-loader": "^0.6.9"
   },
   "type": "module"
 }

@@ -1,3 +1,1 @@
-import { connection } from 'mumble-engine'
-
-connection()
+import {connect} from '../lib/index'
