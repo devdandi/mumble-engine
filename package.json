@@ -1,11 +1,11 @@
 {
   "name": "mumble-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "tsc"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "devdandi",
@@ -15,5 +15,11 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "mumble-engine": "^0.0.2"
+  },
+  "type": "module"
 }
