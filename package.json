@@ -1,6 +1,6 @@
 {
   "name": "mumble-engine",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.6.7",
     "@grpc/proto-loader": "^0.6.9",
-    "mumble-engine": "^0.0.3",
+    "mumble-engine": "^0.0.5",
     "update": "^0.7.4"
   },
   "type": "module"

@@ -2,7 +2,8 @@
 //     console.log(`Hello ${name}`)
 // }
 
-import { connection } from "./Connection/Connection";
+import {connection} from "./Connection/Connection";
+
 
 export {
     connection
