@@ -1,1 +1,1 @@
-import {connect} from '../lib/index'
+import * as Connect from './lib/index'
