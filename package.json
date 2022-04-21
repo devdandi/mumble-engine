@@ -1,9 +1,9 @@
 {
   "name": "mumble-engine",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -12,11 +12,11 @@
   "author": "devdandi",
   "license": "ISC",
   "devDependencies": {
-    "mumble-engine": "^0.0.7",
+    "mumble-engine": "^0.1.0",
     "typescript": "^4.6.3"
   },
   "files": [
-    "lib/**/*"
+    "./lib/**/*"
   ],
   "dependencies": {
     "@grpc/grpc-js": "^1.6.7",

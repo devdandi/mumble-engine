@@ -1,1 +1,1 @@
-import * as Connect from 'mumble-engine'
+import * as Connect from '../lib/index'
