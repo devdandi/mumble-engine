@@ -4,6 +4,6 @@
 
 import { connection } from "./Connection/Connection";
 
-export default {
+export {
     connection
 }
